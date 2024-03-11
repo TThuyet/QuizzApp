@@ -1,0 +1,26 @@
+.bg {
+  /* background-color: rgb(165 180 252); */
+  /* height: 100vh; */
+  /* width: 100%; */
+}
+.h1 {
+  font-size: 48px;
+  color: #fff;
+  padding: 64px 0 18px;
+  text-align: center;
+}
+
+.button {
+  background-color: rgb(110 231 183);
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 16px 64px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

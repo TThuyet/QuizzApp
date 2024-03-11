@@ -1,0 +1,119 @@
+.ingame {
+  padding-top: 48px;
+  text-align: center;
+}
+
+.button {
+  width: 128px;
+  background-color: rgb(110 231 183);
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 16px 0;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btnPrev {
+  background-color: #6b7280;
+  color: #fff;
+  margin-right: 16px;
+}
+
+.disable {
+  color: #d1d5db;
+  background-color: rgb(229 231 235);
+}
+
+.btnSubmit {
+  display: none;
+  color: #fff;
+  background-color: #f59e0b;
+}
+
+.vis {
+  display: inline-block;
+  margin-left: 16px;
+}
+
+.restart {
+  background-color: #f59e0b;
+  margin-left: 16px;
+}
+
+.question {
+  width: 720px;
+  height: 224px;
+  border-radius: 12px;
+  background-color: #fff;
+  position: relative;
+  margin-top: 64px;
+  margin-bottom: 48px;
+}
+
+.countdown {
+  position: absolute;
+  /* top: -50%; */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.questionCount {
+  padding: 64px 0 32px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #4338ca;
+}
+
+.questionContent {
+  padding: 0 16px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.answers {
+}
+
+.li {
+  list-style: none;
+}
+
+.label {
+  color: #000;
+  font-size: 18px;
+  display: block;
+  width: 40rem;
+  height: 4rem;
+  margin: 0 auto;
+  background-color: #fff;
+  line-height: 4rem;
+  text-align: start;
+  padding: 0 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border-radius: 5px;
+}
+
+.label:hover {
+  background-color: #312e81;
+}
+.inputChecked {
+  background-color: #312e81;
+}
+
+.input {
+  display: none;
+}
+
+.inputChoice {
+  background-color: #ef4444;
+}
+
+.inputCorrect {
+  background-color: #10b981;
+}
